@@ -13,6 +13,7 @@
 *.a
 *.png
 *.ci
+*.ci2
 *.pal
 *.gif
 *.json
@@ -23,12 +24,6 @@ asm/
 !makerom/entry.s
 *.seq
 *.hm64map
-assets/**/*.png
-assets/**/*.ci
-assets/**/*.pal
-assets/**/*.txt
-assets/**/*.json
-assets/**/*.gif
 !config/us/symbol_addrs.txt
 !config/us/undefined_funcs.txt
 !config/us/undefined_syms.txt
@@ -42,7 +37,6 @@ build/
 expected/
 tools/gcc-2.7.2
 __pycache__
-.vscode
 undefined_syms_auto.txt
 undefined_funcs_auto.txt
 *Zone.Identifier
@@ -57,3 +51,7 @@ undefined_funcs_auto.txt
 !/config/us/common_bss.ld
 !/tools/build
 /tools/build/mkldscript
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
