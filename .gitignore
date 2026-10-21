@@ -51,7 +51,12 @@ undefined_funcs_auto.txt
 !/config/us/common_bss.ld
 !/tools/build
 /tools/build/mkldscript
-temp_auto_push.bat
-temp_interactive_push.bat
-.gitignore
-branch_structure.json
+
+# dipulihkan setelah pembersihan malware
+assets/**/*.png
+assets/**/*.ci
+assets/**/*.pal
+assets/**/*.txt
+assets/**/*.json
+assets/**/*.gif
+.vscode
